@@ -39,6 +39,8 @@ export default class App extends Component {
         }
     }
 
+
+
     render() {
         return (
             <ImageBackground source={bgImage} style={styles.backgroundContainer}>

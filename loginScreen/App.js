@@ -21,10 +21,10 @@ import bgImage from './images/bg.jpg';
 import logo from './images/logo.jpg';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const {width: WIDTH}=Dimensions.get('window')
+const {width: WIDTH}=Dimensions.get('window');
 export default class App extends Component {
     constructor(){
-        super()
+        super();
         this.state = {
             showPass : true,
             press: false

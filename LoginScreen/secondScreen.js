@@ -3,15 +3,15 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 
 
 
-export default class firstScreen extends Component {
+export default class secondScreen extends Component {
     render() {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome to React Native!</Text>
 
             </View>
-);
-}
+        );
+    }
 }
 
 const styles = StyleSheet.create({
